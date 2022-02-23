@@ -1,0 +1,91 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #adf8fd;
+}
+
+header, footer {
+    padding: 1em;
+    color: rgb(37, 255, 255);
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+article {
+    padding: 1em;
+    overflow: hidden;
+    background-color: #adf8fd;
+    background-repeat:repeat-y; /*no-repeat;*/
+}
+
+p{
+  margin-left: 300px;
+  text-align:justify;
+}
+
+#texto{
+  margin-left: 800px;
+  text-align:justify;
+}
+
+h1{
+  text-align:center;
+  font-size: 200%;
+}
+
+#subtitulo{
+  text-align:right;
+  font-size: 200%;
+}
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+#index{
+  color: rgb(3, 4, 109);
+}
+#Cairo{
+  color: maroon;
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+}
+.banderaIndex{
+  background-image: url("../img/mundo.jpg");
+  height: 600px;
+}
+.index{
+  background-image: url("../img/paises.jpg");
+  background-repeat:repeat;
+}
+.banderaCairo{
+  background-image: url("../img/cairo.jpg");
+}
+a{
+   color: rgb(17, 0, 253);
+}
+
